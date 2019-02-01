@@ -1,4 +1,9 @@
 /* just a sample css rule to show that everything works */
+div
+{
+  text-size: 16px;
+}
+
 footer p
 {
   font-size: small;
@@ -12,4 +17,33 @@ header{
 header img{
   max-width: 100%;
 	height: auto;
+}
+
+#slider2{
+  position: relative;
+}
+
+#video1 {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#video2 {
+  position:absolute;
+  visibility: visible;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#video3 {
+  position: absolute;
+  visibility: hidden;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
